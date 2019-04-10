@@ -1,11 +1,13 @@
 <template>
     <div>
-        <p>A wonderful Quote!</p>
+        <slot></slot>
     </div>
 </template>
 
 <script>
-
+    export default {
+        props: ['quote']
+    }
 </script>
 
 <style scoped>
