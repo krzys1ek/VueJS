@@ -25,7 +25,6 @@
                 this.quote = '';
             }
         }
-
     }
 </script>
 
